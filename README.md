@@ -34,11 +34,17 @@ Một số entity cần thiết phải có
 - Start-Time
 - End-Time
 
-6.Grade
+6.Category
 - CategoryID
+- CategoryName
+- Type
+- Completion Criteria
+
+7.Assement
+- AsID
+- Number of Quest
 - Weight
-- Score
-- Status
+- Duration
 
 ................
 
