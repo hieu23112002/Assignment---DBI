@@ -26,7 +26,6 @@ Một số entity cần thiết phải có
 4.Couses:
 - CourseID
 - CourseName
-- Course-Status
 
 5.Semester:
 - SemesterID
@@ -39,12 +38,8 @@ Một số entity cần thiết phải có
 - CategoryName
 - Type
 - Completion Criteria
-
-7.Assement
-- AsID
-- Number of Quest
 - Weight
-- Duration
+
 
 ................
 
