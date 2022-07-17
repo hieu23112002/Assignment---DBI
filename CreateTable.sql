@@ -15,9 +15,9 @@ CREATE TABLE [Lectures](
 	[Gender] [bit] NOT NULL,
 )
 
+
 CREATE TABLE [Subject](
 	[SubjectId] [nchar](15) NOT NULL Primary key,
-	[SubjectCode] [nchar](10) NOT NULL,
 	[SubjectName] [nvarchar](50) NOT NULL,
 )
 CREATE TABLE [Semester](
@@ -52,10 +52,10 @@ CREATE TABLE [Lectures_Group](
 
 CREATE TABLE [Category](
 	[CateId] [nchar](15) NOT NULL Primary key,
-	[Name] [nchar](15) NOT NULL,
+	[Name] [nchar](15) NOT NULL,	
 	[Part] [int] NOT NULL,
 	[Weight] [float] NOT NULL,
-	[CompletionCiteria] [float] NOT NULL,
+	[CompletionCiteria] [float] NOT NULL,	
 	[SubjectId] [nchar](15) NOT NULL,
 	Constraint FK_Category_Subject foreign key (SubjectId) references [Subject](SubjectId)
 )
